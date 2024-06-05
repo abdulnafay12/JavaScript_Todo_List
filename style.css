@@ -1,0 +1,32 @@
+.hide {
+    display: none;
+}
+
+.show {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(255, 176, 72, 0.699);
+}
+
+.innerPop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.todo-list {
+    max-height: 300px;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-color: red;
+}
+
+
+/* .marquee {
+    width: 25%;
+} */
